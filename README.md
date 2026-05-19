@@ -58,10 +58,3 @@ Currently seeking internship and entry-level software development opportunities.
 - Email: tejasbait7@gmail.com
 - LinkedIn: https://www.linkedin.com/in/tejas-bait-527503281/
 
-## 📌 Note
-
-This project was created as a Capstone Project for Web Development practice and portfolio building.
-
----
-
-⭐ If you like this project, feel free to star the repository.
