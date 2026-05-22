@@ -8,6 +8,9 @@
 
     <title>Tejas Bait | Portfolio Resume</title>
 
+    <!-- Browser Tab Icon -->
+    <link rel="icon" type="image/png" href="profile.jpeg">
+
     <style>
 
         *{
@@ -78,6 +81,8 @@
             padding:30px;
         }
 
+        /* Hero Section */
+
         .hero{
             background:linear-gradient(135deg,#1e293b,#2563eb);
             color:white;
@@ -96,6 +101,7 @@
             border:6px solid white;
             margin-bottom:20px;
             transition:0.4s;
+            box-shadow:0 5px 20px rgba(255,255,255,0.3);
         }
 
         .hero img:hover{
@@ -118,28 +124,32 @@
             margin:5px 0;
         }
 
+        /* Buttons */
+
         .contact-links{
-            margin-top:20px;
+            margin-top:25px;
         }
 
         .contact-links a{
             text-decoration:none;
-            color:white;
             background:white;
             color:#2563eb;
-            padding:12px 20px;
+            padding:12px 22px;
             margin:8px;
             display:inline-block;
-            border-radius:10px;
+            border-radius:12px;
             font-weight:bold;
             transition:0.3s;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
         }
 
         .contact-links a:hover{
             background:#0f172a;
             color:white;
-            transform:translateY(-4px);
+            transform:translateY(-5px);
         }
+
+        /* Sections */
 
         .section{
             background:white;
@@ -180,6 +190,8 @@
             margin-bottom:12px;
         }
 
+        /* Skills */
+
         .skills{
             display:grid;
             grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
@@ -204,6 +216,8 @@
             margin-bottom:10px;
         }
 
+        /* Projects */
+
         .project{
             background:#f8fafc;
             padding:25px;
@@ -223,10 +237,14 @@
             margin-bottom:10px;
         }
 
+        /* Experience */
+
         .experience h3{
             color:#1e3a8a;
             margin-bottom:8px;
         }
+
+        /* Footer */
 
         footer{
             text-align:center;
@@ -234,6 +252,30 @@
             padding:25px;
             color:#475569;
             font-size:16px;
+        }
+
+        /* Responsive */
+
+        @media(max-width:768px){
+
+            .hero h1{
+                font-size:36px;
+            }
+
+            .hero h3{
+                font-size:20px;
+            }
+
+            .section h2{
+                font-size:28px;
+            }
+
+            .contact-links a{
+                display:block;
+                margin:12px auto;
+                width:220px;
+            }
+
         }
 
     </style>
@@ -272,11 +314,18 @@
 
             <div class="contact-links">
 
-             <a href="https://www.linkedin.com/in/tejas-bait-527503281/" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/tejas-bait-527503281/" target="_blank">
+                    LinkedIn
+                </a>
 
-                <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">GitHub</a>
+                <a href="https://github.com/tejuxx76" target="_blank">
+                    GitHub
+                </a>
 
-             <a href="Tejas_Resume_.pdf" download>Download CV</a>
+                <a href="Tejas_Resume.pdf" download>
+                    Download CV
+                </a>
+
             </div>
 
         </div>
@@ -480,9 +529,14 @@
 
         </div>
 
+        <!-- Footer -->
+
         <footer>
 
-            <p>© 2026 Tejas Ravindra Bait | Portfolio Resume</p>
+            <p>
+                © 2026 Tejas Ravindra Bait | Portfolio Resume <br>
+                Built with HTML & CSS
+            </p>
 
         </footer>
 
